@@ -19,7 +19,7 @@
 #define lcd_EN_pin     GPIO_Pin_5
 // definitions for identifiers data_types to be used as function /apis parameters during definitions
 #define port_data_type  GPIO_TypeDef *
-//end of user definition
+
 // define delays to be used within apis which in unit of 1ms as the systick_timer fires every 1ms
 #define    delay_uint           (uint32_t)168  ///168*(1\(168*10^6)) =1us
 #define    delay_100us           (uint32_t)100
