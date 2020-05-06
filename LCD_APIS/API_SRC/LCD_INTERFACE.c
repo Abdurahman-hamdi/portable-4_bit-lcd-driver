@@ -10,7 +10,6 @@
 #include "LCD_INTERFACE.h"
 
 
-#define Time_port32(n)  (*((volatile unsigned long*) (0xE0000000+4*n)))
 
 
 
