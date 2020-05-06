@@ -5,10 +5,9 @@
   * @date    3-may-2020
   * @description  this file contains set of target dependent functions definitions used by lcd application routines  .*/
 
-#define Time_port32(n)  (*((volatile unsigned long*) (0xE0000000+4*n)))
 /* Includes */
 #include "port.h"
-uint32_t delay_var;//holds current /remaining timing uints
+volatile uint32_t delay_var;//holds current /remaining timing uints
 
 // set SysTick to fire ever time unit specified by app
 
