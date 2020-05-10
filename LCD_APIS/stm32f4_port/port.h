@@ -21,7 +21,7 @@
 #define port_data_type  GPIO_TypeDef *
 //end of user definition&configuration
 
-// define delays to be used within apis which in unit of 1ms as the systick_timer fires every 1ms
+// define delays to be used within apis which in unit of 1us as the systick_timer fires every 1us
 #define    delay_uint           (uint32_t)168  ///168*(1\(168*10^6)) =1us
 #define    delay_100us           (uint32_t)100
 #define    delay_2000us         (uint32_t)2000
